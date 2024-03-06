@@ -116,6 +116,8 @@ void S2()
 
         string jsonDictionary = JsonSerializer.Serialize(dictionary);
         Console.WriteLine($"Словник у JSON: {jsonDictionary}");
+        string jsonFilePath = @"D:\lab1(2)";
+        File.WriteAllText(jsonFilePath, jsonDictionary);
     }
     else
     {
