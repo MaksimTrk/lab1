@@ -25,7 +25,7 @@ void S1()
 
     List<string> data = new List<string>
         {
-            "1,John",
+            "1,Вася",
             "2,Jane",
             "3,Bob",
         };
