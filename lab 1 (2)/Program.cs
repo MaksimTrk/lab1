@@ -26,8 +26,8 @@ void S1()
     List<string> data = new List<string>
         {
             "1,Вася",
-            "2,Jane",
-            "3,Bob",
+            "2,Коля",
+            "3,Маша",
         };
     Console.WriteLine("Якщо бажаєте виконати пошук елемента за id - натиснiть 1\nЯкщо бажаєте виконати пошук елемента за UserName - натиснiть 2");
     int InputOption = int.Parse(Console.ReadLine());
